@@ -9,13 +9,23 @@ namespace Anagram.Tests
   public class AnagramGameTests
   {
     [TestMethod]
-    public void stringCapture_CaptureInputWord_True()
+    public void StringCapture_CaptureInputWord_True()
     {
-      AnagramGame inputWord = new AnagramGame("word");
-
-      string result = inputWord.stringCapture();
-
+      List<string> comparisonWords = new List<string>{"bear", "dog"};
+      AnagramGame inputWord = new AnagramGame("word", comparisonWords);
+      string result = inputWord.StringCapture();
       Assert.AreEqual("word", result);
+    }
+
+    [TestMethod]
+
+    public void GetPossibleAnagrams_CapturesAnagramWords_True()
+    {
+      List<string> comparisonWords = new List<string>{"bear", "dog"};
+      AnagramGame inputWordToList = new AnagramGame("bear", comparisonWords);
+      var result = inputWordToList.GetPossibleAnagrams();
+      Console.WriteLine("This is second test result: " + result);
+      CollectionAssert.AreEqual(comparisonWords, result);
     }
 
   }
