@@ -12,3 +12,17 @@
 /Users/Guest/Desktop/Anagram.Solution/Anagram.Tests/bin/Debug/netcoreapp1.1/Anagram.pdb
 /Users/Guest/Desktop/Anagram.Solution/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.dll
 /Users/Guest/Desktop/Anagram.Solution/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.pdb
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/AnagramTests.deps.json
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/AnagramTests.runtimeconfig.json
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/AnagramTests.runtimeconfig.dev.json
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.csproj.CoreCompileInputs.cache
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.AssemblyInfo.cs
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/obj/Debug/netcoreapp1.1/AnagramTests.pdb
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/AnagramTests.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/AnagramTests.pdb
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/Anagram.dll
+/Users/playourheartout/Desktop/AnagramTest/Anagram.Tests/bin/Debug/netcoreapp1.1/Anagram.pdb

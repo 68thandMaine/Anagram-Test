@@ -11,22 +11,31 @@ namespace Anagram.Tests
     [TestMethod]
     public void StringCapture_CaptureInputWord_True()
     {
-      List<string> comparisonWords = new List<string>{"bear", "dog"};
-      AnagramGame inputWord = new AnagramGame("word", comparisonWords);
-      string result = inputWord.StringCapture();
+      List<string> comparisonWords = new List<string> {"word"};
+      AnagramGame inputWord = new AnagramGame("junk", comparisonWords);
+      string result = inputWord.stringCapture();
       Assert.AreEqual("word", result);
     }
 
-    [TestMethod]
-
-    public void GetPossibleAnagrams_CapturesAnagramWords_True()
-    {
-      List<string> comparisonWords = new List<string>{"bear", "dog"};
-      AnagramGame inputWordToList = new AnagramGame("bear", comparisonWords);
-      var result = inputWordToList.GetPossibleAnagrams();
-      Console.WriteLine("This is second test result: " + result);
-      CollectionAssert.AreEqual(comparisonWords, result);
-    }
+    // [TestMethod]
+    // public bool isLetterEqual_CompareInputEquality_True()
+    // {
+    //   List<string> comparisonWords = new List<string> {"a"};
+    //   AnagramGame inputWord = new AnagramGame("a", comparisonWords);
+    //
+    //   string result = inputWord.isLetterEqual()
+    //
+    //   Assert.AreEqual
+    // }
+    // // [TestMethod]
+    // public void GetPossibleAnagrams_CapturesAnagramWords_True()
+    // {
+    //   List<string> comparisonWords = new List<string>{"bear", "dog"};
+    //   AnagramGame inputWordToList = new AnagramGame("bear", comparisonWords);
+    //   var result = inputWordToList.GetPossibleAnagrams();
+    //   Console.WriteLine("This is second test result: " + result);
+    //   CollectionAssert.AreEqual(comparisonWords, result);
+    // }
 
   }
 }
